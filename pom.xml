@@ -5,7 +5,7 @@
 	<artifactId>jersey-crud-example</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jersey-crud-example Maven Webapp</name>
+	<name>jax-rs-crud-example Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>

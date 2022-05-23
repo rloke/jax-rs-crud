@@ -57,7 +57,7 @@ public class UserResourceClient {
 
 		User user = new User();
 		user.setId(1);
-		user.setName("Ramesh");
+		user.setName("Jamie");
 
 		Invocation.Builder invocationBuilder = webTarget.request(MediaType.APPLICATION_JSON);
 		Response response = invocationBuilder.post(Entity.entity(user, MediaType.APPLICATION_JSON));
@@ -73,7 +73,7 @@ public class UserResourceClient {
 
 		User user = new User();
 		user.setId(1);
-		user.setName("Ramesh");
+		user.setName("Jamie");
 
 		Invocation.Builder invocationBuilder = webTarget.request(MediaType.APPLICATION_JSON);
 		Response response = invocationBuilder.put(Entity.entity(user, MediaType.APPLICATION_JSON));
@@ -92,7 +92,7 @@ public class UserResourceClient {
 
 		User user = new User();
 		user.setId(1);
-		user.setName("Ramesh");
+		user.setName("Jamie");
 
 		Invocation.Builder invocationBuilder = webTarget.request();
 		Response response = invocationBuilder.delete();
